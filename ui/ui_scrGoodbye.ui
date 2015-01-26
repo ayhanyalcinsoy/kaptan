@@ -209,7 +209,7 @@ border-top-right-radius: 4px;</string>
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-system.png</pixmap>
+               <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/preferences-system.png</pixmap>
               </property>
               <property name="scaledContents">
                <bool>false</bool>
@@ -470,7 +470,7 @@ border-top-right-radius: 4px;</string>
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/system-help.png</pixmap>
+               <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/system-help.png</pixmap>
               </property>
               <property name="scaledContents">
                <bool>false</bool>
@@ -604,7 +604,7 @@ border-top-right-radius: 4px;</string>
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-system.png</pixmap>
+               <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/preferences-system.png</pixmap>
               </property>
               <property name="scaledContents">
                <bool>false</bool>
@@ -712,7 +712,7 @@ border-top-right-radius: 4px;</string>
              <string notr="true">color: rgb(30, 43, 51);</string>
             </property>
             <property name="text">
-             <string>Run Kapudan on system startup?</string>
+             <string>Run Kaptan on system startup?</string>
             </property>
            </widget>
           </item>
@@ -742,7 +742,7 @@ border-top-right-radius: 4px;</string>
   </layout>
  </widget>
  <resources>
-  <include location="../data/kapudan.qrc"/>
+  <include location="../data/kaptan.qrc"/>
  </resources>
  <connections/>
 </ui>

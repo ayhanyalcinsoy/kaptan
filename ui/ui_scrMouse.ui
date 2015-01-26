@@ -71,7 +71,7 @@ QPushButton::flat:pressed{
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/preferences-desktop-peripherals.png</pixmap>
+      <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/preferences-desktop-peripherals.png</pixmap>
      </property>
     </widget>
    </item>
@@ -497,7 +497,7 @@ border-top-right-radius: 4px;</string>
   </layout>
  </widget>
  <resources>
-  <include location="../data/kapudan.qrc"/>
+  <include location="../data/kaptan.qrc"/>
  </resources>
  <connections/>
 </ui>

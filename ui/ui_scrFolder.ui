@@ -316,7 +316,7 @@ p, li { white-space: pre-wrap; }
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="../data/kapudan.qrc">:/raw/pixmap/folders.png</pixmap>
+        <pixmap resource="../data/kaptan.qrc">:/raw/pixmap/folders.png</pixmap>
        </property>
       </widget>
      </item>
@@ -341,7 +341,7 @@ p, li { white-space: pre-wrap; }
         <enum>QFrame::Raised</enum>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your home directory does not contain folders for documents, music, pictures and the like by default. Kapudan will create the folders selected below for you now; unselect the ones you don't want.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Your home directory does not contain folders for documents, music, pictures and the like by default. Kaptan will create the folders selected below for you now; unselect the ones you don't want.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -413,8 +413,8 @@ border-top-right-radius: 4px;</string>
   </layout>
  </widget>
  <resources>
-  <include location="../data/kapudan.qrc"/>
-  <include location="../../../../.designer/data/kapudan.qrc"/>
+  <include location="../data/kaptan.qrc"/>
+  <include location="../../../../.designer/data/kaptan.qrc"/>
  </resources>
  <connections/>
 </ui>
