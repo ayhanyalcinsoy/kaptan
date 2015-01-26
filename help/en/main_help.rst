@@ -1,8 +1,8 @@
-Kapudan
+Kaptan
 ------
 
-**Kapudan** is a wizard that helps user to customize desktop enviroment after 
-installing Chakra. While Kapudan is giving some information about Chakra, it also 
+**Kaptan** is a wizard that helps user to customize desktop enviroment after 
+installing Pisi Linux. While Kaptan is giving some information about Pisi Linux, it also 
 sets basic configures such as internet connection, wallpaper and so on.
 
 Mouse
@@ -41,10 +41,10 @@ Net
 ---
 
 Highly recommended to use this setting page to connect internet for newly installed 
-Chakra.
+Pisi Linux.
 
 Click **Create Profile** and select hardware that you want to configure. Fill blank 
-areas like profile name, password, etc. and then click **OK**. Chakra may ask your 
+areas like profile name, password, etc. and then click **OK**. Pisi Linux may ask your 
 password for controlling authorization.
 
 To connect created profile you have to check the box near the profile that you named 
@@ -65,4 +65,4 @@ Other
 -----
 
 ın this screen, you can run **System Settings** to configure many options about 
-your system. Also you can connect Chakra support website.
+your system. Also you can connect Pisi Linux support website.

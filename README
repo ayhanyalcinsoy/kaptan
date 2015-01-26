@@ -11,15 +11,15 @@ Python-imaging
 
 Building & Installation
 -----------------------
-* Build Kapudan without installing to your system:
+* Build Kaptan without installing to your system:
 
     python2 setup.py build
 
-* Running Kapudan after building:
+* Running Kaptan after building:
 
-    python2 build/kapudan.py
+    python2 build/kaptan.py
 
-* Build and install Kapudan to your system:
+* Build and install Kaptan to your system:
 
     python2 setup.py install
 
@@ -33,14 +33,14 @@ Testing (for Developers)
 
 Translations
 ------------
-* To regenerate the translation template, ‘po/kapudan.pot’ (for developers, requires `intltool` from core):
+* To regenerate the translation template, ‘po/kaptan.pot’ (for developers, requires `intltool` from core):
 
     python2 setup.py update_messages
 
   Don’t forget to upload this template to Transifex: https://www.transifex.com/projects/p/chakra-project/resource/kapudan/
 
   If you plan on releasing a new version of the software shortly, you should post an announcement at
-  https://www.transifex.com/projects/p/chakra-project/announcements/ asking translators to update Kapudan translations
+  https://www.transifex.com/projects/p/chakra-project/announcements/ asking translators to update Kaptan translations
   as soon as possible.
 
 * To retrieve the latest translations (give translators at least two weeks since the last time you uploaded a modified

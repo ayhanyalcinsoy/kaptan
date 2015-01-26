@@ -34,9 +34,9 @@ def update_messages():
         os.system("pykdeuic4 -o .tmp/%s.py ui/%s" % (filename.split(".")[0], filename))
 
     # Collect Python files
-    directories = [ "src/kapudan",
-                    "src/kapudan/screens",
-                    "src/kapudan/tools"]
+    directories = [ "src/kaptan",
+                    "src/kaptan/screens",
+                    "src/kaptan/tools"]
 
     for d in directories:
         for filename in glob.glob1(d, "*.py"):
@@ -87,7 +87,7 @@ class Build(build):
 
         # Copy kde-themes
         print "Copying kde-themes..."
-        os.system("cp -R data/kde-themes build/kapudan/")
+        os.system("cp -R data/kde-themes build/kaptan/")
 
         #update_messages()
 
@@ -95,15 +95,15 @@ class Build(build):
         print "Generating UIs..."
         for filename in glob.glob1("ui", "*.ui"):
 #            if not "ui_scrFolder" in filename:
-#                os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
+#                os.system("pykdeuic4 -o build/kaptan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
 #            else:
-#                shutil.copy("ui/ui_scrFolder.py", "build/kapudan/screens/ui_scrFolder.py")
-            os.system("pykdeuic4 -o build/kapudan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
+#                shutil.copy("ui/ui_scrFolder.py", "build/kaptan/screens/ui_scrFolder.py")
+            os.system("pykdeuic4 -o build/kaptan/screens/%s.py ui/%s" % (filename.split(".")[0], filename))
         print "Generating RCs..."
         for filename in glob.glob1("data", "*.qrc"):
-            os.system("pyrcc4 data/%s -o build/kapudan/%s_rc.py" % (filename, filename.split(".")[0]))
+            os.system("pyrcc4 data/%s -o build/kaptan/%s_rc.py" % (filename, filename.split(".")[0]))
 
-        os.system("sed -i 's/kapudan_rc/kapudan.\kapudan_rc/g' build/kapudan/screens/ui_*")
+        os.system("sed -i 's/kaptan_rc/kaptan.\kaptan_rc/g' build/kaptan/screens/ui_*")
 
 class Install(install):
     def run(self):

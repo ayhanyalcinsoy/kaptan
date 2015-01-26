@@ -3,15 +3,15 @@
 # 
 # Maintainer: george <george[at]chakra-project.org>
 
-pkgname=kapudan
+pkgname=kaptan
 pkgver=0.4.90
 pkgrel=1
 pkgdesc="Chakra's desktop greeter, a fork of Pardus's Kaptan."
 arch=('i686' 'x86_64')
-url='http://gitorious.org/chakra/kapudan/'
+url='http://gitorious.org/chakra/kaptan/'
 screenshot='http://i.imgur.com/71aU5.png'
 license=('GPLv2')
-conflicts=('kapudan-git')
+conflicts=('kaptan-git')
 depends=('python2'  'kde-baseapps-konsole'  'kde-runtime'
          'kdebindings-python2' 'python2-pyqt4'  'python2-xlib'
          'python2-imaging' 'xdg-user-dirs' 'ksuperkey')
@@ -35,16 +35,16 @@ mksource() {
 package() {
     cd "${srcdir}/${pkgname}"
     python2 setup.py install --root="${pkgdir}"
-    install -Dm755 kapudan-rootactions "${pkgdir}/usr/bin/kapudan-rootactions"
-    install -Dm755 kapudan.desktop "${pkgdir}/usr/share/applications/kapudan.desktop"
-    install -Dm644 data/kapudan.svgz \
-        "${pkgdir}/usr/share/icons/hicolor/scalable/apps/kapudan.svgz"
+    install -Dm755 kaptan-rootactions "${pkgdir}/usr/bin/kaptan-rootactions"
+    install -Dm755 kaptan.desktop "${pkgdir}/usr/share/applications/kaptan.desktop"
+    install -Dm644 data/kaptan.svgz \
+        "${pkgdir}/usr/share/icons/hicolor/scalable/apps/kaptan.svgz"
     install -dm755 \
-        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kde-themes/"
+        "${pkgdir}/usr/share/kde4/apps/kaptan/kaptan/kde-themes/"
     install -Dm644 data/kde-themes/* \
-        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kde-themes/"
-    install -Dm755 kapudan-autostart.desktop \
-        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/kapudan-autostart.desktop"
+        "${pkgdir}/usr/share/kde4/apps/kaptan/kaptan/kde-themes/"
+    install -Dm755 kaptan-autostart.desktop \
+        "${pkgdir}/usr/share/kde4/apps/kaptan/kaptan/kaptan-autostart.desktop"
     install -Dm755 data/ksuperkey.desktop \
-        "${pkgdir}/usr/share/kde4/apps/kapudan/kapudan/ksuperkey.desktop"
+        "${pkgdir}/usr/share/kde4/apps/kaptan/kaptan/ksuperkey.desktop"
 }
